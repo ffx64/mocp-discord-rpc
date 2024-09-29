@@ -1,7 +1,7 @@
-<center>
-	<img src="src/img/icons/2.png" width=140 height=140 />
-	<h2>Music on Console Player RPC</h2>
-</center>
+<p align="center">
+	<img src="src/img/icons/2.png" width=150 height=150 />
+	<h2 align="center">Music on Console Player RPC</h2>
+</p>
 
 ### Features
 - [x] **Synchronized Timestamp**: Shows the current duration of the song in real-time.
@@ -9,20 +9,12 @@
 - [x] **Metadata Display**: Detailed information about the currently playing track, such as artist, album, and duration.
 - [x] **Discord Integration**: Automatic updates to your Discord status, showing what you're listening to.
 
-<center>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <h4>Default</h4>
-        <img src="src/img/mocp-2.png" width=190 height=310 />
-    </div>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <h4>Wave</h4>
-        <img src="src/img/mocp-1.png" width=190 height=310 />
-    </div>
-    <div style="display: inline-block; text-align: center; margin: 10px;">
-        <h4>Fire</h4>
-        <img src="src/img/mocp-3.png" width=190 height=310 />
-    </div>
-</center>
+#### Themes
+| Default | Wave | Fire |
+|---------|------|------|
+| ![Default](src/img/mocp-2.png) | ![Wave](src/img/mocp-1.png) | ![Fire](src/img/mocp-3.png) |
+
+###### Note: To change the theme, go to line 58 of `main.py`, change the number from 1 to 3, and restart `mocp-discord-rpc`.
 
 ### Install
 The commands below are used to clone and configure mocp-discord-rpc on your Linux or macOS distribution.
